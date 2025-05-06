@@ -56,3 +56,84 @@ html:has(.contact:target) li a[href="#contact"] {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
+
+/* header section*/
+
+.landing{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.landing h1 {
+    font-size: 4.5rem;
+}
+
+
+.text-animate::after {
+    font-size: 2.5rem;
+    content: "Developer";
+    animation: typing 5s infinite alternate;
+    -webkit-animation: typing 6s infinite alternate;
+}
+
+@keyframes typing {
+    /* Developer */
+    0% { content: 'D |'; }
+    2% { content: 'De |'; }
+    4% { content: 'Dev |'; }
+    6% { content: 'Deve |'; }
+    8% { content: 'Devel |'; }
+    10% { content: 'Develo |'; }
+    12% { content: 'Develop |'; }
+    14% { content: 'Develope |'; }
+    16% { content: 'Developer |'; }
+    18% { content: 'Develope |'; }
+    20% { content: 'Develop |'; }
+    22% { content: 'Develo |'; }
+    24% { content: ' |'; }
+  
+    /* Designer */
+    25% { content: 'D |'; }
+    27% { content: 'De |'; }
+    29% { content: 'Des |'; }
+    31% { content: 'Desi |'; }
+    33% { content: 'Desig |'; }
+    35% { content: 'Design |'; }
+    37% { content: 'Designe |'; }
+    39% { content: 'Designer |'; }
+    41% { content: 'Designe |'; }
+    43% { content: 'Design |'; }
+    45% { content: 'Desig |'; }
+    47% { content: ' |'; }
+  
+    /* Freelancer */
+    50% { content: 'F |'; }
+    52% { content: 'Fr |'; }
+    54% { content: 'Fre |'; }
+    56% { content: 'Free |'; }
+    58% { content: 'Freel |'; }
+    60% { content: 'Freela |'; }
+    62% { content: 'Freelan |'; }
+    64% { content: 'Freelanc |'; }
+    66% { content: 'Freelance |'; }
+    68% { content: 'Freelancer |'; }
+    70% { content: 'Freelance |'; }
+    72% { content: ' |'; }
+  
+    /* Photographer */
+    75% { content: 'P |'; }
+    77% { content: 'Ph |'; }
+    79% { content: 'Pho |'; }
+    81% { content: 'Phot |'; }
+    83% { content: 'Photo |'; }
+    85% { content: 'Photog |'; }
+    87% { content: 'Photogr |'; }
+    89% { content: 'Photogra |'; }
+    91% { content: 'Photograp |'; }
+    93% { content: 'Photograph |'; }
+    95% { content: 'Photographe |'; }
+    97% { content: 'Photographer |'; }
+    99% { content: ' |'; }
+    100% { content: 'D |'; } /* loop restarts */
+  }
